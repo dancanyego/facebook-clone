@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/fbclone/app/src/main/res/drawable/facebook_full_logo.xml" value="0.15" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/fbclone/app/src/main/res/layout/activity_create_account.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/fbclone/app/src/main/res/layout/activity_fragment_controller.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/fbclone/app/src/main/res/layout/activity_main.xml" value="0.22" />
