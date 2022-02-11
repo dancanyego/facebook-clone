@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Sign in user, and if successful, take user to timeline page
         if (username != null && password != null) {
-            ParseUser.logInInBackground(username, password, new LogInCallback() {
+            ParseUser.
+                    logInInBackground(username, password, new LogInCallback() {
                 @Override
                 public void done(ParseUser user, ParseException e) {
                     if (user != null) {
@@ -78,13 +79,13 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         // Check if user is already logged in, and if they are, take them to the Timeline page
-        if (ParseUser.getCurrentUser() != null) {
-            Log.i("User", "Already signed in");
-            Intent intent = new Intent(this, FragmentControllerActivity.class);
-            startActivity(intent);
-            finish();
-
-        }
+//        if (ParseUser.getCurrentUser() != null) {
+//            Log.i("User", "Already signed in");
+//            Intent intent = new Intent(this, FragmentControllerActivity.class);
+//            startActivity(intent);
+//            finish();
+//
+//        }
 
     }
 }
